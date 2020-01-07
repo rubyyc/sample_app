@@ -14,7 +14,7 @@ rubyc:
   admin: true
 
 rubyc_one:
-  name: Rubyc
+  name: Rubyc_one
   email: 759337829@qq.com
   password_digest: <%= User.digest('password') %>
 
