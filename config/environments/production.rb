@@ -94,7 +94,7 @@ Rails.application.configure do
   # config.action_mailer.delivery_method = :smtp
   # config.action_mailer.smtp_settings = config_for(:email).symbolize_keys
 
-  config.action_mailer.default_url_options = { :host => 'protected-peak-56043.herokuapp.com' }
+  config.action_mailer.default_url_options = { :host => 'yc-sample.herokuapp.com/' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
       :address =>  "smtpcloud.sohu.com",
