@@ -97,13 +97,13 @@ Rails.application.configure do
   config.action_mailer.default_url_options = { :host => 'protected-peak-56043.herokuapp.com' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
-      address: "smtpcloud.sohu.com",
-      port: 25,
-      domain: "NOHgsO3wstJoZ4OQerTqCgY5hOdUOPYQ.sendcloud.org",
-      authentication: "plain",
-      user_name: "yuanchang_test_2bxacM",
-      password: "9KGXXck5poAa9aQg",
-      enable_starttls_auto: true,
+      :address =>  "smtpcloud.sohu.com",
+      :port =>  25,
+      :domain =>  "NOHgsO3wstJoZ4OQerTqCgY5hOdUOPYQ.sendcloud.org",
+      :authentication =>  :login,
+      :user_name =>  "yuanchang_test_2bxacM",
+      :password =>  "9KGXXck5poAa9aQg",
+      :enable_starttls_auto =>  true,
   }
   # Inserts middleware to perform automatic connection switching.
   # The `database_selector` hash is used to pass options to the DatabaseSelector
