@@ -35,7 +35,7 @@ gem 'mini_magick','4.9.5'
 
 # gem 'carrierwave-qiniu'
 # gem 'qiniu-rs'
-gem 'qiniu_rails'
+# gem 'qiniu_rails'
 
 # gem 'activestorage_qiniu'
 
